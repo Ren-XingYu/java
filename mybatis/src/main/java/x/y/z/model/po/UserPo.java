@@ -1,4 +1,4 @@
-package x.y.z.model;
+package x.y.z.model.po;
 
 import lombok.Getter;
 import lombok.Setter;

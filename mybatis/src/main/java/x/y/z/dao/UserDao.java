@@ -1,10 +1,10 @@
-package x.y.z.mapper;
+package x.y.z.dao;
 
-import x.y.z.model.User;
+import x.y.z.model.po.UserPo;
 
 import java.util.List;
 
-public interface UserMapper {
+public interface UserDao {
 
-    List<User> selectAll();
+    List<UserPo> selectAll();
 }
