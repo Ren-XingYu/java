@@ -1,3 +1,5 @@
+package x.y.z;
+
 import java.sql.*;
 
 public class JdbcPreparedStatementDemo {
