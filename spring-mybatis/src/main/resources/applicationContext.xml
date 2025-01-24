@@ -22,7 +22,7 @@
         <property name="mapperLocations" value="classpath:mapper/*.xml"/>
     </bean>
 
-    <!-- Mapper接口每一个配置@mapper注解, 或者使用下面的包扫描 -->
+    <!-- Mapper接口每一个配置@mapper注解, 或者使用下面的包扫描, spring会自动为mapper接口生成代理对象并注入到IoC容器中 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="x.y.z.mapper"/>
     </bean>
